@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indah-Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <!-- Fonts 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <!-- Fonts 3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap" rel="stylesheet">
+    <!-- Fonts 4 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <header class="absolute w-[100%] top-0 right-0 flex items-center z-[1000] justify-between px-8 py-3">
+        <a href="#"><img width="100" src="image/Frame 9.svg" alt=""></a>
+        <ul class="navmenu flex gap-5">
+            <li><a class="text-white hover:text-cyan-500 hover:bg-black rounded-lg w-6 h-auto text-center text-[16px] capitalize px-9 transition-shadow font-[Kanit]"
+                    href="#">Home</a></li>
+            <li><a class="text-white hover:text-cyan-500 hover:bg-black rounded-lg w-6 h-auto text-center text-[16px] capitalize px-9 transition-shadow font-[Kanit]"
+                    href="#">Shope</a></li>
+            <li><a class="text-white hover:text-cyan-500 hover:bg-black rounded-lg w-6 h-auto text-center text-[16px] capitalize px-9 transition-shadow font-[Kanit]"
+                    href="#">Products</a></li>
+            <li><a class="text-white hover:text-cyan-500 hover:bg-black rounded-lg w-6 h-auto text-center text-[16px] capitalize px-9 transition-shadow font-[Kanit]"
+                    href="#">Page</a></li>
+            <li><a class="text-white hover:text-cyan-500 hover:bg-black rounded-lg w-6 h-auto text-center text-[16px] capitalize px-9 transition-shadow font-[Kanit]"
+                    href="#">Docs</a></li>
+        </ul>
+        <div class="flex items-center">
+            <div class="mr-5 text-2xl font-normal transition-all text-white">
+                <a href="#"><i class='bx bx-search px-3 hover:text-blue-500'></i></a>
+                <a href="#"><i class='bx bx-user px-3 hover:text-blue-500'></i></a>
+                <a href="#"><i class='bx bx-cart px-3 hover:text-blue-500'></i></a>
+            </div>
+            <div class="bx bx-menu text-[35px] text-white z-[10001] cursor-pointer" id=""></div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="w-[100%] h-[100vh] bg-cover bg-center grid items-center grid-cols-1 px-10"
+        style="background-image: url(image/Frame\ 10.svg);">
+        <div class="capitalize font-medium">
+            <h1 class="font-[Cabin] text-2xl">Thrifting</h1>
+            <h6 class="font-[Kanit] text-[3rem]">Indah Thrifting</h6>
+            <div
+                class="main-shope text-center w-[9rem] h-auto text-[25px] rounded-lg bg-white hover:bg-blue-400 mx-auto animate-pulse hover:animate-none">
+                <butto class="font-[Abel] group-hover:text-white cursor-pointer animate-pulse hover:animate-none">Shope
+                    Now</button>
+            </div>
+        </div>
+
+        <div class="absolute top-[85%] right-[11%]">
+            <a href="#trending" class="down transition-all"><i
+                    class='bx bx-down-arrow-alt text-[50px] text-white border border-cyan-500 rounded-[50%] hover:bg-black animate-bounce duration-1000'></i></a>
+        </div>
+    </section>
+    <!-- Product -->
+    <section class="trending-produc bg-slate-300" id="trending">
+        <div class="text-center cursor-pointer">
+            <h2 class="text-[2.578rem] capitalize text-white font-[Cabin] mb-8">Our tranding <span
+                    class="font-[Kanit] text-cyan-500">Product</span></h2>
+        </div>
+        <div class="grid grid-cols-3 gap-8 p-1 ml-14">
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <h5
+                    class="absolute top-[13px] left-[13px] text-white text-[12px] font-medium uppercase bg-[#27b737] px-1 rounded-lg group-hover:scale-95">
+                    New</h5>
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <h5
+                    class="absolute top-[13px] left-[13px] text-white text-[12px] font-medium uppercase bg-[#27b737] px-1 rounded-lg group-hover:scale-95">
+                    New</h5>
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h">Half Running Set</h4>
+                        <p
+                            class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                            $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <h5
+                    class="absolute top-[13px] left-[13px] text-white text-[12px] font-medium uppercase bg-[#27b737] px-1 rounded-lg group-hover:scale-95">
+                    Hot</h5>
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <h5
+                    class="absolute top-[13px] left-[13px] text-white text-[12px] font-medium uppercase bg-[#27b737] px-1 rounded-lg group-hover:scale-95">
+                    New</h5>
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[19px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16xl] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+            <div class="relative transition-all">
+                <img class="w-[85%] h-auto rounded-lg hover:scale-95 transition-all" src="image/b1.webp" alt="">
+                <h5
+                    class="absolute top-[13px] left-[13px] text-white text-[12px] font-medium uppercase bg-[#27b737] px-1 rounded-lg group-hover:scale-95">
+                    Sale</h5>
+                <div class="absolute right-16 text-[20px] hover:text-pink-700">
+                    <a href="#"><i class='bx bxs-heart'></i></a>
+                </div>
+                <div class="text-orange-500 text-[18px]">
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bx-star'></i></a>
+                    <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                <div class="text-[16px] capitalize font-[Jost]">
+                    <h4>Half Running Set</h4>
+                    <p
+                        class="text-[14px] font-[Jost] text-center w-32 bg-center ml-24 rounded-lg hover:bg-green-500 hover:text-white cursor-pointer border-2 hover:border-black">
+                        $99 - $222</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review -->
+
+    <section class="bg-slate-500">
+        <div class="">
+            <h1 class="text-white text-[25px] capitalize font-[cabin] text-center">Review</h1>
+            <img class="mx-auto rounded-lg" width="250" src="image/Ellipse 2.svg" alt="">
+            <div>
+                <h2 class="text-center border w-96 mx-auto bg-white">Fahri saputra</h2>
+                <p class="text-center border w-96 mx-auto bg-white">Developer</p>
+                <p class="border w-96 mx-auto bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic inventore
+                    esse incidunt pariatur placeat modi, quos praesentium, omnis illum expedita ad. Obcaecati, quia. In,
+                    nisi!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bg-black font-[cabin]">
+            <h1 class="text-center text-white">fahrisptra™ </h1>
+        </div>
+    </footer>
+
+</body>
+
+</html>
